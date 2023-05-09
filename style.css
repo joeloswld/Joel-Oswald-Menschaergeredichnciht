@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(11, 4vmax);
+    grid-template-rows: repeat(11, 4vmax);
+}
+
+.grid-container-container {
+    display: flex;
+    justify-content: center;
+}
+
+.playable {
+    background-color: darkkhaki;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.irrelevant {
+    height: 100%;
+    width: 100%;
+}
